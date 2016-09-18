@@ -1,0 +1,66 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.1.1):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.1.1):
+    - Bolts (~> 1.8)
+    - FacebookCore
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.1.1):
+    - Bolts (~> 1.8)
+    - FacebookCore
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.15.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.15.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.15.1):
+    - FBSDKCoreKit
+
+DEPENDENCIES:
+  - FacebookCore (from `https://github.com/gerbiljames/facebook-sdk-swift.git`, branch `swift-3.0`)
+  - FacebookLogin (from `https://github.com/gerbiljames/facebook-sdk-swift.git`, branch `swift-3.0`)
+  - FacebookShare (from `https://github.com/gerbiljames/facebook-sdk-swift.git`, branch `swift-3.0`)
+
+EXTERNAL SOURCES:
+  FacebookCore:
+    :branch: swift-3.0
+    :git: https://github.com/gerbiljames/facebook-sdk-swift.git
+  FacebookLogin:
+    :branch: swift-3.0
+    :git: https://github.com/gerbiljames/facebook-sdk-swift.git
+  FacebookShare:
+    :branch: swift-3.0
+    :git: https://github.com/gerbiljames/facebook-sdk-swift.git
+
+CHECKOUT OPTIONS:
+  FacebookCore:
+    :commit: eab78b9e335f7b5921cf8580a116c61fbf0f6717
+    :git: https://github.com/gerbiljames/facebook-sdk-swift.git
+  FacebookLogin:
+    :commit: eab78b9e335f7b5921cf8580a116c61fbf0f6717
+    :git: https://github.com/gerbiljames/facebook-sdk-swift.git
+  FacebookShare:
+    :commit: eab78b9e335f7b5921cf8580a116c61fbf0f6717
+    :git: https://github.com/gerbiljames/facebook-sdk-swift.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: aae38a4f6b3f8d3f0a58113813ce9e0396d85787
+  FacebookLogin: da9ce37b68f5c386ba0a346639fd983c2957bf0d
+  FacebookShare: 6edb929bf66c0f467549dac2335c27aa64ccf89b
+  FBSDKCoreKit: fc7fa53d16b095ee3fd53f0cd59f1df8bcbb634d
+  FBSDKLoginKit: 073f79b3b2e762fc6f54a283fe15f45372d59f5f
+  FBSDKShareKit: 11cbb5a4d7b5fda8143cc95b76188147e6725736
+
+PODFILE CHECKSUM: 298bf7164179ea3766e082336ba48e443b725492
+
+COCOAPODS: 1.1.0.rc.2
